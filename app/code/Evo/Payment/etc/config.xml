@@ -1,0 +1,33 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <evo_payment>
+                <active>0</active>
+                <model>Evo\Payment\Model\PaymentMethod</model>
+                <title>Evo</title>
+                <payment_action>sale</payment_action>
+                <order_status>pending</order_status>
+                <payment_cancelled></payment_cancelled>
+                <merchant_id></merchant_id>
+                <merchant_password></merchant_password>
+                <merchant_brandid></merchant_brandid>
+                <payment_methods>500</payment_methods>
+                <display_mode>redirect</display_mode>
+                <debug_log>0</debug_log>
+                <environment>sandbox</environment>
+                <token_url_production>https://api.evomexico.mx/token</token_url_production>
+                <cashier_url_production>https://cashierui-api.evomexico.mx/ui/cashier</cashier_url_production>
+                <payments_url_production>https://api.evomexico.mx/payments</payments_url_production>
+                <js_url_production>https://cashierui-api.evomexico.mx/js/api.js</js_url_production>
+                <token_url_sandbox>https://apiuat.test.evomexico.mx/token</token_url_sandbox>
+                <cashier_url_sandbox>https://cashierui-apiuat.test.evomexico.mx/ui/cashier</cashier_url_sandbox>
+                <payments_url_sandbox>https://apiuat.test.evomexico.mx/payments</payments_url_sandbox>
+                <js_url_sandbox>https://cashierui-api.evomexico.mx/js/api.js</js_url_sandbox>
+                <is_gateway>1</is_gateway>
+                <allowspecific>0</allowspecific>
+                <specific_countries></specific_countries>
+                <specific_currencies></specific_currencies>
+            </evo_payment>
+        </payment>
+    </default>
+</config>
