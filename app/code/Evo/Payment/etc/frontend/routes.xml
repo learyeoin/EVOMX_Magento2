@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
-        <route id="universalpay" frontName="universalpay">
-            <module name="UniversalPay_Payment" />
+        <route id="evo" frontName="evo">
+            <module name="Evo_Payment" />
         </route>
     </router>
 </config>

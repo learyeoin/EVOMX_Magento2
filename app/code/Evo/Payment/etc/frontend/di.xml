@@ -3,7 +3,7 @@
     <type name="Magento\Checkout\Model\CompositeConfigProvider">
         <arguments>
             <argument name="configProviders" xsi:type="array">
-                <item name="universalpay_payment_config_provider" xsi:type="object">UniversalPay\Payment\Model\ConfigProvider\UniversalPayConfigProvider</item>
+                <item name="evo_payment_config_provider" xsi:type="object">Evo\Payment\Model\ConfigProvider\EvoPayConfigProvider</item>
             </argument>
         </arguments>
     </type>
