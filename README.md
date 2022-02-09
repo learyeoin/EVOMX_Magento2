@@ -6,8 +6,3 @@ Got a question? Visit https://www.evopayments.mx/contacto/ for development help.
 
 For instructions on how to install the plugin on Magento please go to our Wiki [here](https://github.com/EVO-Mexico).
 
-```node
-$payments = (new Payments())->testEnvironment(array(
-  ‘merchantId’ => ‘42’, 
-  ‘password’ => ‘mypassword’));
-```
